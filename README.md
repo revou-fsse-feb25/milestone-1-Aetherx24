@@ -15,6 +15,12 @@ This is a personal portofolio website showcasing my skills, education, projects,
 # Technologies Used
 - **HTML5**: Structure of the website.
 
+# How to Use
+
+#### Deployed Webpage
+
+Access the webpage by clicking this link: 
+
 # Upcoming Features
 - **CSS3**: Using CSS to style the webpage
 - **JavaScript**: Using JavaScript to validate forms and to make the website more responsive
