@@ -14,6 +14,8 @@ This is a personal portofolio website showcasing my skills, education, projects,
 
 # Technologies Used
 - **HTML5**: Structure of the website.
+- **CSS3**: Used minimal css for icons which can be found here:
+https://cdnjs.com/libraries/font-awesome
 
 # How to Use
 
