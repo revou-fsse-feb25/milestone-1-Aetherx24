@@ -17,9 +17,18 @@ This is a personal portofolio website showcasing my skills, education, projects,
 
 # How to Use
 
-#### Deployed Webpage
+## Deployed Webpage
 
-Access the webpage by clicking this link: 
+Access the webpage by clicking this link: https://revou-fsse-feb25.github.io/milestone-1-Aetherx24/
+
+## Direct Download
+
+You can lone this repository:
+```sh
+git clone https://github.com/revou-fsse-feb25/milestone-1-Aetherx24
+```
+and open the index.html 
+
 
 # Upcoming Features
 - **CSS3**: Using CSS to style the webpage
