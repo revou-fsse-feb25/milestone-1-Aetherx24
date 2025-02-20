@@ -23,7 +23,7 @@ Access the webpage by clicking this link: https://revou-fsse-feb25.github.io/mil
 
 ## Direct Download
 
-You can lone this repository:
+You can clone this repository:
 ```sh
 git clone https://github.com/revou-fsse-feb25/milestone-1-Aetherx24
 ```
