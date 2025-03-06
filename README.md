@@ -38,7 +38,7 @@ and open the index.html
 # Upcoming Features
 Planned Improvement
 
-- **JavaScript**: Using JavaScript to validate forms and to make the website more responsive
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) : Using JavaScript to validate forms and to make the website more responsive
 
 # Author
 Muhammad Iqbal Maulana
