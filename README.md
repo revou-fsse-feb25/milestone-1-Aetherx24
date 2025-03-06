@@ -4,11 +4,14 @@
 A responsive personal portofolio website showcasing my skills, education, projects, and contact information. 
  
 # Features 
-- ✨ Responsive Navigation Bar
-- 👤 About Section 
+- ✨ Responsive Navigation
+- 🙋🏽‍♂️Home section with profile picture
+- 👤 About Section with skills
 - 🎓 Education Timeline
 - 💼 Project Showcase
 - 📬 Interactive Contact Form
+- 🧈Smooth scrolling
+- 📲Mobile friendly design
 
 <!-- I used emojis from Emojipedia(https://emojipedia.org/) and custom badges from [Shields.io](https://shields.io/). -->
 
@@ -34,7 +37,7 @@ and open the index.html
 
 # Upcoming Features
 Planned Improvement
-- **CSS3**: Using CSS to style the webpage
+
 - **JavaScript**: Using JavaScript to validate forms and to make the website more responsive
 
 # Author
