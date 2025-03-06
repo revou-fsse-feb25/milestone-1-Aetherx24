@@ -6,9 +6,10 @@
     <title>Muhammad Iqbal Maulana - Aspiring Software Engineer</title>
     <!-- Used external css for some icons  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-
-</head>
+    <!-- Using Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>  
 <body>
     <!-- Navigation -->
      <nav class="navbar">
@@ -20,9 +21,13 @@
         </div>
      </nav>
 
+
      <!-- Home Section  -->
     <section id="home" class="home-section">
         <div class="home-content">
+            <div class="profile-container">
+                <img src="assets/profile-picture.jpeg" alt="Profile Picture" class="home-profile-pic">
+            </div>
             <h1>Hi, I am <span class="highlight"> Muhammad Iqbal Maulana</span></h1>
             <p class="home-subtitle">Aspiring Software Engineer</p>
             <p class="home-description">Passionate about learning fullstack software engineering</p>
@@ -32,6 +37,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- About Section -->
      <section id="about" class="about-section">
@@ -58,44 +64,66 @@
         </div>
      </section>
 
+
      <!-- Education Section -->
       <section id="education" class="education-section">
         <div class="container">
             <h2 class="section-title">Education</h2>
-            <div class="education-grid">
-                <!-- Master of Business Administration (most recent) -->
-                 <div class="education-card">
-                    <img src="assets\Adelphi.png" alt="Adelphi University" width="300">
-                    <div class="education-info">
-                        <h3>Adelphi University</h3>
-                        <p>Long Island, New York (2020-2023)</p>
-                        <p>Master of Business Administration</p>
+            <div class="education-timeline">
+                <!-- Master`s Degree (most recent) -->
+                 <div class="education-item">
+                    <div class="education-card">
+                        <div class="education-date">
+                            2020 - 2023
+                        </div>
+                        <h3 class="education-title">
+                            Master of Business Administration
+                        </h3>
+                        <div class="education-school">
+                            Adelphi University
+                        </div>
+                        <img src="assets/Adelphi.png" alt="Adelphi University" width="200">
+                        <p class="education-description">Long Island, New York</p>
                     </div>
-                 </div>
-            </div>
+                </div> 
 
-            <!-- Bachelor of Economics  -->
-            <div class="education-grid">
-                <img src="assets\university-of-massachusetts-boston2227.jpg" alt="University of Massachusetts Boston" width="300">
-                <div class="education-info">
-                    <h3>University of Massachusetts Boston</h3>
-                    <p>Boston, Masachusetts (2018-2020)</p>
-                    <p>Bachelor of Economics</p>
+                <!-- Bachelor`s Degree  -->
+                <div class="education-item">
+                    <div class="education-card">
+                        <div class="education-date">
+                            2018 - 2020
+                        </div>
+                        <h3 class="education-title">
+                            Bachelor of Economics
+                        </h3>
+                        <div class="education-school">
+                            University of Massachusetts Boston
+                        </div>
+                        <img src="assets/university-of-massachusetts-boston2227.jpg" alt="University of Massachusetts Boston" width="200">
+                        <p class="education-description">Boston, Massachusetts</p>
+                    </div>
                 </div>
-            </div>
-            
-            <!-- Associate in Arts (AA Degree) -->
-            <div class="education-grid">
-                <img src="assets\grc logo.png" alt="Green River College" width="300">
-                <div class="education-info">
-                    <h3>Green River College</h3>
-                    <p>Auburn, Washington (2016-2018)</p>
-                    <p>Associate in Arts</p>
+
+                <!-- Associate Degree -->
+                <div class="education-item">
+                    <div class="education-card">
+                        <div class="education-date">
+                            2016 - 2018
+                        </div>
+                        <h3 class="education-title">
+                            Associate in Arts
+                        </h3>
+                        <div class="education-school">
+                            Green River College
+                        </div>
+                        <img src="assets/grc-logo.png" alt="Green River College" width="200">
+                        <p class="education-description">Auburn, Washington</p>
+                    </div>
                 </div>
             </div>
         </div>
-
       </section>
+
 
      <!-- Projects Section -->
       <section id="projects" class="projects-section">
@@ -104,7 +132,7 @@
             <div class="project-grid">
                 <!-- Project 1 -->
                  <div class="project-card">
-                    <img src="assets\bmi-calculator-en-scaled-1-1024x543.jpg" alt="BMI Calculator" width="300">
+                    <img src="assets/bmi-calculator-en-scaled-1-1024x543.jpg" alt="BMI Calculator" width="300">
                     <div class="project-info">
                         <h3>BMI Calculator</h3>
                         <p>Created a simple BMI calculator website using HTML, CSS and JavaScript</p>
@@ -122,6 +150,7 @@
             </div>
         </div>
       </section>
+
 
       <!-- Contact Section -->
        <section id="contact" class="contact-section">
@@ -151,23 +180,24 @@
                 <form class="contact-form" id="contactForm">
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" id="name">
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" id="email">
+                        <input type="email" id="email" name="email" required placeholder="Your Email">
                     </div>
                     <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea id="message" rows="5"></textarea>
+                        <textarea id="message" name="message" rows="5" required placeholder="Please Write Your Message Here"></textarea>
                     </div>
-                    <button type="submit" class="btn primary-btn">Send Message</button>
+                    <button type="submit" class="btn primary-btn"> <i class="fas fa-paper-plane"></i> Message</button>
 
                 </form>
             </div>
         </div>
        </section>
 
+       
       <!-- Footer -->
        <footer class="footer">
         <div class="container">
