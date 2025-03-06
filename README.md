@@ -16,7 +16,7 @@ A responsive personal portofolio website showcasing my skills, education, projec
 - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) Structure and content
 - ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) Styling (minimal)
 - 📚 [Font Awesome](https://cdnjs.com/libraries/font-awesome) - Icon library
-- 📚![Google Fonts](https://img.shields.io/badge/Google%20Fonts-white?style=flat&logo=googlefonts&logoColor=%234285F4
+- ![Google Fonts](https://img.shields.io/badge/Google%20Fonts-white?style=flat&logo=googlefonts&logoColor=%234285F4
 ) (Merriweather & Source Sans Pro)
 
 # How to Use
