@@ -15,7 +15,10 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f8f9fa;
+    background: url('assets/background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .container {
@@ -104,10 +107,9 @@ h2 {
     justify-content: center;
     text-align: center;
     padding: 0 1rem;
-    background-color: #f8f9fa;
-    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('assets/background.png');
-    background-size: cover;
-    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.9)
 }
 
 .home-content {
@@ -118,6 +120,7 @@ h2 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
     color: #2c3e50;
+    white-space: nowrap;
 }
 
 .profile-container {
@@ -193,7 +196,7 @@ h2 {
 /* About Section */
 .about-section {
     padding: 5rem 0;
-    background-color: white;
+    background: rgba(255, 255, 255, 0.9)
 }
 
 .section-title {
@@ -243,8 +246,8 @@ h2 {
 /* Education Section */
 
 .education-section {
-    background-color: #f8f9fa;
     padding: 5rem 0;
+    background: rgba(255, 255, 255, 0.9)
 }
 
 .education-timeline {
@@ -358,7 +361,7 @@ h2 {
 /* Projects Section */
 .projects-section {
     padding: 5rem;
-    background-color: #f8f9fa;
+    background: rgba(255, 255, 255, 0.9)
 }
 
 .projects-grid {
@@ -439,7 +442,7 @@ h2 {
 /* Contact Section */
 .contact-section {
     padding: 5rem 0;
-    background-color: white;
+    background: rgba(255, 255, 255, 0.9)
 }
 
 .contact-content {
@@ -578,6 +581,7 @@ h2 {
     /* Home Section */
     .home-content h1 {
         font-size: 2.5rem;
+        white-space: normal;
     }
 
     /* Profile Picture */
@@ -641,6 +645,9 @@ h2 {
 @media (max-width: 480px) {
     /* Profile Picture */
 
+    .home-content h1 {
+        font-size: 2rem;
+    }
     .home-profile-pic {
         width: 150px;
         height: 150px;

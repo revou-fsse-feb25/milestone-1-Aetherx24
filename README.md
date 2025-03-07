@@ -3,6 +3,9 @@
 ## Overview 
 A responsive personal portofolio website showcasing my skills, education, projects, and contact information. 
  
+ Website Preview:
+![Website Preview](assets/website-preview.png)
+
 # Features 
 - ✨ Responsive Navigation
 - 🙋🏽‍♂️Home section with profile picture
