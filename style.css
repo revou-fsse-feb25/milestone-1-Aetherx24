@@ -375,6 +375,14 @@ h2 {
     padding: 1rem;
 }
 
+/* Correct selector for the HTML markup */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem; /* space between project cards */
+    padding: 1rem;
+}
+
 .project-card {
     background-color: white;
     border-radius: 10px;
@@ -632,6 +640,12 @@ h2 {
         height: 150px;
     }
 
+    /* single-column layout on small screens */
+    .project-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
     /* Contact Section */
     .contact-content {
         grid-template-columns: 1fr;
@@ -664,6 +678,10 @@ h2 {
 
     /* Project Cards */
     .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-grid {
         grid-template-columns: 1fr;
     }
 }
